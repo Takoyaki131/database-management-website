@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+
+/* .container {
+  align-content:center;
+} */
+
+
+/* h2{
+    color: darkred;
+}
+ */
+
+/* dispaly username after login */
+h5{
+  color: #a02d76;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.name{
+  float: left;
+  padding: 8px;
+  
+}
+/* .update{
+   align-items: center;
+    max-width: 700px;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  #update{
+    background-color: #eee;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    color: #222;
+  }
+   */
+
+/* .login{
+    float:right;
+} */
+
+/* #softwares {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#softwares td, #softwares th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#softwares tr:nth-child(even){background-color: #f2f2f2;}
+#softwares tr:nth-child(odd){color: #ffffff;}
+
+#softwares tr:hover {background-color: dimgray;} */
+
+/* #softwares th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+} */
+/* body {
+  background-color: darkred;
+  
+} */
+
+/* h1 {
+  color: black;
+  text-align: center;
+} */
+
+/* Add a black background color to the top navigation
+.navigation {
+
+  background-color: #333;
+  overflow: hidden;
+  padding:5px;
+} */
+
+/* Style the links inside the navigation bar */
+/* .navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} */
+
+/* Change the color of links on hover */
+/* .navigation a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+/* Add a color to the active/current link */
+/* .navigation a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+form {
+    text-align: center;
+    padding: 25px;
+    color: white;
+	font-size: 25px;
+}
+
+input {
+	font-size: 22px;
+}
+
+textarea {
+	font-size: 22px;
+}
+
+select {
+	font-size: 22px;
+}
+
+.add input {
+    padding: 5px;
+    font-size: 18px;
+   
+    
+} */
+
+
+
+
+
+  
+  /* login / index.php& error_login.php*/
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+  .h-custom {
+  height: calc(100% - 73px);
+  }
+  #color{
+    background:darkred;
+  }
+/*  index.php/ foorter/icons */
+  .icons{
+display:flex;
+column-gap:20px;
+margin:-15px;
+}
+.icon{
+width:40px;
+height:40px;
+display: inline-flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:22px;
+color:#fff;
+border-radius:50%;
+outline:2px solid #fff;
+transition-property : outline-offset , outline-color ,
+background-color;
+transition-duration: .25s;
+margin:5px;
+padding:10px
+}
+.icon:hover{
+outline-offset: 4px;
+}
+.icon:hover i{
+animation: shake .25px;
+}
+.icon--instagram:hover{
+background-image: radial-gradient(circle at 30% 107% ,
+#fdf497 0%, #fdf497 5% , #fd5949 45%,
+#d6249f 60%, #285AEB 90%);
+outline-color:#a02d76;
+color:white;
+
+}
+.icon--twitter:hover{
+background-color:#1da1f2;
+outline-color: #1da1f2;
+color:white;
+
+}
+.icon--linkedin:hover{
+background-color:#0077b5;
+outline-color: #0077b5;
+color:white;
+
+}
+.icon--facebook:hover{
+background-color:blue;
+outline-color: white;
+color:white;
+}
+@keyframes shake{
+10%{transform:rotate(-15deg);}
+20%{transform:rotate(-15deg);}
+30%{transform:rotate(-15deg);}
+40%{transform:rotate(-15deg);}
+}
+ 
+  
+
+
+
+/* main-page  nav,header */
+
+.navtop {
+	background-color: darkred;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 25px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 25px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form/contact.php */
+.contacts{
+  width:35%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:5px ;
+  outline:none;
+  padding:7.5px;
+  box-sizing:border-box;
+  transition:.3s;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+input[type=email]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.contactName{ width: 100px;
+  
+  padding: 5px;
+  border-radius: 50px;
+  border: unset;
+  background-color: forestgreen;
+  color: #fff;
+  font-size: 1.1em;
+  margin:5px;
+  cursor: pointer;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+
+
